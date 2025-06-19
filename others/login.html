@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+ 
+</head>
+
+<body>
+  <div class="container">
+    <img src="/img/logo.png" alt="Spotify Logo" class="logo">
+    <h1>Log in to Spotify</h1>
+    <button class="btn"
+      onclick="window.location.href='https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?response_type=code&access_type=offline&client_id=1046568431490-ij1gi5shcp2gtorls09frkc56d4mjbe2.apps.googleusercontent.com&state=AQAlguEng637DPzrNzdfw7BuMcNCZBcp1trxHsSujRyL%2F4P0PiiksP3zKiwD7C5olKVYrG5yVkx05IINFEcOmcdYJpaRVk5wM%2FlUXQLLOFMb%2Bj4MYWc09huDEHR1W6DwDmgDgUIMoyCiX3skZXrwunj1oL%2Fe9%2Fbl0a2cMmwbHtONqRaGB1AnrYzT1vDcWT2gQ06FJzpVJWGSh%2BFCP%2BshWDxbZogoJTXDWCj%2F8YMS8AtQ9tbowFQa5H1Yll33zJFtS4NzFfT%2Fg5HgvPlzdnnOFaFsLMWcC2TLUFSNRYqEKg29LyVsa7zjrjhsUgOTa1NrUwIVlV6MOOQN937Cae9AWskHemqj&scope=profile%20email%20openid&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Fgoogle%2Fredirect&service=lso&o2v=2&ddm=0&flowName=GeneralOAuthFlow'"><img
+        class="span" src="/img/google.svg"> Continue with Google</button>
+    <button class="btn btn-secondary"
+      onclick="window.location.href='https://www.facebook.com/login.php?skip_api_login=1&api_key=174829003346&kid_directed_site=0&app_id=174829003346&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv17.0%2Fdialog%2Foauth%3Fclient_id%3D174829003346%26state%3DAQDePt%252FVL52vt09wJLXHuJAGXyG3Rybex20nK9r2I7hiYHjenZW7Jb2T8T17cP0%252BCqKKm8N1wD9Ugm9CjJYFkfoLO0EB%252F1LX3Lo2qtZvdEzcuQhaY578XPQRFeDffKFND5KSiVFOgbYUkMk0BqGAPiqt7plKIUGLcp7EJo7mob2g4exiAXiw9rwHh45fRyB8DuDODxV2suhEW9hnHc6XTxlgCUr2%252BChSW%252FbPMRmAoBazbrsPVXBgnIzXMaPFNrTInY2J8hnvfBm7zpk0yflXVarLYaDqQzhQT92al%252F6b9Xk4lp15b6GWCyrEICF%252F08vL4l5Xq1GjlUMaWw%252FxXd0uzee9Zi1fWA%253D%253D%26redirect_uri%3Dhttps%253A%252F%252Faccounts.spotify.com%252Flogin%252Ffacebook%252Fredirect%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D2666f7fa-cca2-4b6a-a504-50f58d0d19b6%26tp%3Dunspecified&cancel_url=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Ffacebook%2Fredirect%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3DAQDePt%252FVL52vt09wJLXHuJAGXyG3Rybex20nK9r2I7hiYHjenZW7Jb2T8T17cP0%252BCqKKm8N1wD9Ugm9CjJYFkfoLO0EB%252F1LX3Lo2qtZvdEzcuQhaY578XPQRFeDffKFND5KSiVFOgbYUkMk0BqGAPiqt7plKIUGLcp7EJo7mob2g4exiAXiw9rwHh45fRyB8DuDODxV2suhEW9hnHc6XTxlgCUr2%252BChSW%252FbPMRmAoBazbrsPVXBgnIzXMaPFNrTInY2J8hnvfBm7zpk0yflXVarLYaDqQzhQT92al%252F6b9Xk4lp15b6GWCyrEICF%252F08vL4l5Xq1GjlUMaWw%252FxXd0uzee9Zi1fWA%253D%253D%23_%3D_&display=page&locale=en_GB&pl_dbl=0'"><img class="span"
+        src="/img/facebook.svg">Continue with Facebook</button>
+    <button class="btn btn-secondary"
+      onclick="window.location.href='https://appleid.apple.com/auth/authorize?response_type=code&response_mode=form_post&client_id=com.spotify.accounts&state=AQAKRKrDFcw4DUQu%2FlMwlzbDlxrikDDkgsNauVOEZCLsGLyvX%2FqaySag55ezZ5cvZFulw1l3%2FW%2BJ2LTedMjED2x%2F0upU6vzFWG4vnL3bomY1R2gnjMDjyXeOcQgq4SbLgzbPQgnzBImDbkYp7CmZgIq82qqdM4B%2FK%2Fr62PzKGPgn1tCfYH83SyP9OGkVG6WNGkwENTUq7wqV1oYGpeOJ9VUsNb7TfLXAQkJBwY4yhmgPuhl4PbNo7PIQULzGNGg%2FOpJACB%2FB3J1JGQq7QtTEhv0kEXx%2BXwdjBXjptKkTFooStgVgDhIOvALHn9b7oMYyoA7SxQBmI91128ln91OtyNyootoS%2FA%3D%3D&scope=name+email&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Fapple%2Fredirect'"><img class="span"
+      id="apple"  src="/img/apple.svg" alt="img">continue with Apple</button>
+    <button class="btn btn-secondary"
+      onclick="window.location.href='https://accounts.spotify.com/en-GB/login/phone?continue=https%3A%2F%2Fopen.spotify.com%2F&flow_ctx=7f26550b-0885-46a6-91a2-ed338e4368c1:1723557358'">continue
+      with Phone number</button>
+
+    <hr class="hr">
+
+    <div class="form-group">
+      <label class="label" for="username">Email or username</label>
+      <input class="input" type="text" id="username" placeholder="Email or username">
+
+
+      <label class="label" for="password">Password</label>
+      <input class="input" type="password" id="password" placeholder="Password">
+      <!-- <span class="error-icon">&#10008;</span> -->
+    </div>
+    <div class=" remember Remember" data-encore-id="formGroup"><label data-encore-id="formToggle"
+        class="Checkbox-sc-jka46s-0 ilczgl"><input type="checkbox" id="login-remember" name="remember"
+          data-testid="login-remember" data-encore-id="visuallyHidden"
+          class="VisuallyHidden__VisuallyHiddenElement-sc-17bibe8-0 eUaqVT" checked=""><span
+          class="Wrapper-sc-16y5c87-0 ioubZY"><span class="Indicator-sc-acu4qz-0 GuRdu"></span></span><span
+          class="Label-sc-1sbwovc-0 kGXnFq">
+          <p class="sc-ksBlkl klVIiA">Remember me</p>
+        </span></label></div>
+    <div class="button"><button id="b1">Log in</button></div>
+
+    <div class="forgot">
+      <a href="#">forgot your password?</a>
+    </div>
+    <hr class="hr">
+    <div class="last">
+      <p>Don't have an account? </p>
+      <a href="#">Sign up for Spotify</a>
+    </div>  </div>
+    <footer class="footer">
+      <p>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+    </footer>
+
+</body>
+
+</html>
+<script>
+  const homeIcon = document.getElementById('home-icon');
+  homeIcon.addEventListener('click', function () {
+    window.location.href = '/';
+  });
+</script>
+<script src="script.js"></script>
+</body>
+
+</html>

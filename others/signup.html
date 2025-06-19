@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <div class="container">
+        <span id="h1">
+            <h1>Sign up to start listening</h1>
+        </span>
+
+        <input type="email" placeholder="Email address" id="email">
+        <a
+            href="https://accounts.spotify.com/en/login/phone?intent=signup&continue=https%3A%2F%2Fopen.spotify.com%2F%3Fflow_ctx%3De2d92673-ecb2-4027-9869-1e6c283c30cb%253A1723892562&creation_point=https%3A%2F%2Fopen.spotify.com%2F%3Fsp_cid%3D12d32d4e3f40714be9f5aba03164253e%26device%3Ddesktop&flow_ctx=e2d92673-ecb2-4027-9869-1e6c283c30cb:1723892562">
+            Use phone number instead.</a>
+
+        <span class="span"><button id="next">Next</button></span>
+        <div class="hr">
+            <hr>
+            <p id="p">or</p>
+            <hr>
+        </div>
+        <div class="social-buttons">
+            <button class="social-button" id="google"
+                onclick="window.location.href='https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?response_type=code&access_type=offline&client_id=1046568431490-ij1gi5shcp2gtorls09frkc56d4mjbe2.apps.googleusercontent.com&state=AQAr%2BjeCn1PtBWSswjwK5a%2F1F%2F%2F2GAiACoQ7Wdesu6SBvEsQNIIk%2Ba9RISH4AJttbNEBO35bVnXrKApmpr7QmXfjIbp%2BlI9W%2FvIyao%2BugJFw04gv0%2BMU4EUZEVokeuoWtHOgWgwlqEzvoCaz6huo5b%2Bt0yY0P5o0Xc8vTr4EtOY83qWq5bjfPtES5HQfXn9bt503SQFoa%2FFKNZmiOGJJEQ0ZNIgdfpk5x0llgpHIOMD2BlevKe6YWDAZeiBd8MPxQ0fdeQvniKkcssPGQej%2FvRIox%2BwXZ8%2Fhw9bJe%2By8VdtJDH5tC2ZjyTMuu%2BzaJCYyRii%2ByIe42TRWBSq8ByMzeMAWiqV25F1KJobMyALQ6%2Baw4OzNriSqnTGDRXY3URUZECeUxz4ktGCMKjwv%2FvGHwNBSuXbR24CTmaO0DSc7oVekAjFAY7y6WiL0eDcSXe2wOgYFsIFPbrjQPbRx5DEaGTrGVd3d%2BhCAJ1u3ERu3ByX2fMwrsmnC0aw3cB78DHbmgoD0toZZK79PnuypfVlUhYdP3AJysApr6A%2FyM%2FppUem8cDEgZUVBxexREiQg7iaRN5oDFdREvWYRiAJz7lQ3Jxh%2FdzRw&scope=profile%20email%20openid&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Fgoogle%2Fredirect%2Fsignup&service=lso&o2v=2&ddm=0&flowName=GeneralOAuthFlow'"><img>
+                <img src="/img/google.svg" alt="Google" width="20">
+
+                Sign up with Google
+            </button>
+            <button class="social-button" id="facebook"
+                onclick="window.location.href='https://www.facebook.com/login.php?skip_api_login=1&api_key=174829003346&kid_directed_site=0&app_id=174829003346&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv17.0%2Fdialog%2Foauth%3Fclient_id%3D174829003346%26state%3DAQCR%252B00qCGa%252FHC2fNDncn6EdLDoz%252FMQIo6ypuzFK%252F8V8HOYNGzpAJe5EY%252B1LTf8ZzAzc63rPFiF%252Fw0ATrFgUHunQFiIcj%252B9h4hq42WTMYl%252BLXlaJTVe5ZkjRUwinofornn%252FGDY8CnmNm7d9ERqBw87nTI12x0qEHX3zTpkxbP0LhQPTeDwtE9suFHrpDRr2zRmmpDK6SEO0Rz%252BdSuH0eaSV7C8ES8g9yW3sMmSsH9d%252BlLbZvs4nWNxJ1ET4lzBIo4kxCy8lSsb%252Fzxzj1TEo5hPCJKVcxdvhoV7OFqmO34DLmBlY%252F4e8l8TLDwdjpYyXUvA%252Ff%252FOX696%252FgC5LIVaxkqe0MjIpH7iMCgljYyJyb2bm2S7N5r1V0J2HHswZHN2kahZFT3EfZSqkW%252FBKmk%252FGv1ZH7QwRM6D6Ccj3BBLAWl0aHwoH0Ggn4P9qKHVSPFnZPoQkyYWpIDVbhldoKiMlA3x%252B%252BqRnGxlxzwqrrQc0Q3KEoFZv3Cw7IFNdURlne6LC%252FPVLx3HOfay5mv%252BK4Yb65abGLYQefazDUhDnfsi1LuY1gh6YswGsberNqEJNBN2YDFTTVuJdRGTgEa1ViYoYL3IhABd5U%26redirect_uri%3Dhttps%253A%252F%252Faccounts.spotify.com%252Flogin%252Ffacebook%252Fredirect%252Fsignup%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3Dac34bf4c-3d18-4185-99e9-e795bdae1d35%26tp%3Dunspecified&cancel_url=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Ffacebook%2Fredirect%2Fsignup%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3DAQCR%252B00qCGa%252FHC2fNDncn6EdLDoz%252FMQIo6ypuzFK%252F8V8HOYNGzpAJe5EY%252B1LTf8ZzAzc63rPFiF%252Fw0ATrFgUHunQFiIcj%252B9h4hq42WTMYl%252BLXlaJTVe5ZkjRUwinofornn%252FGDY8CnmNm7d9ERqBw87nTI12x0qEHX3zTpkxbP0LhQPTeDwtE9suFHrpDRr2zRmmpDK6SEO0Rz%252BdSuH0eaSV7C8ES8g9yW3sMmSsH9d%252BlLbZvs4nWNxJ1ET4lzBIo4kxCy8lSsb%252Fzxzj1TEo5hPCJKVcxdvhoV7OFqmO34DLmBlY%252F4e8l8TLDwdjpYyXUvA%252Ff%252FOX696%252FgC5LIVaxkqe0MjIpH7iMCgljYyJyb2bm2S7N5r1V0J2HHswZHN2kahZFT3EfZSqkW%252FBKmk%252FGv1ZH7QwRM6D6Ccj3BBLAWl0aHwoH0Ggn4P9qKHVSPFnZPoQkyYWpIDVbhldoKiMlA3x%252B%252BqRnGxlxzwqrrQc0Q3KEoFZv3Cw7IFNdURlne6LC%252FPVLx3HOfay5mv%252BK4Yb65abGLYQefazDUhDnfsi1LuY1gh6YswGsberNqEJNBN2YDFTTVuJdRGTgEa1ViYoYL3IhABd5U%23_%3D_&display=page&locale=en_GB&pl_dbl=0'">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"
+                    alt="Facebook" width="20">
+                Sign up with Facebook
+            </button>
+            <button class="social-button" id="apple"
+                onclick="window .location.href='https://appleid.apple.com/auth/authorize?response_type=code&response_mode=form_post&client_id=com.spotify.accounts&state=AQBhSSNXRwjcAy%2FEKnZvyIWcJ0YqSUOrX01HUOC3Wi43MvaAO8Gqf7Seu0RJCG6MMGAXhzrJOrQ3EjXF5SNTd%2B%2BXTstmGUFYEYb6NypSZkIbRw3mN1trdL84qwSX6WgpjDyDNXB8S3JM6%2Bt5mKGSc28h8opFJH%2Fxbg1LdWcwWaUi8T9uJkrkOOdNjFjO%2FJXUk7OJy0cEo5MtklJa6SxIAo0kXjFUlvuJ9YJBir%2FXHOLl%2FgtJ1BeJdWOW7nvUJXPmD%2BqslOybl4XORN1ajCpp8F3jpgjmcwWGoJ%2Fd%2FrvyxR5%2BELwT6XjTQzoqc0Lxlb6%2F26%2FwBPChESeKMjpw4eaQFBw9l9vgpbM%2FlnZImHg1HT%2BeDmWmD6gvxaGpYW4SMBv8FKPptiCDm5iXB8GBPvflgvqNybLN0CDYj1oLwKiqPCtcf9S%2BSu4OVv9LIXzwS3rKHA7jRdSLxOf%2BGjE1rcZddX6ahf1SYpGqdS0MrKBQPD0lzBXAkBy1qSMrL3R6R88KvajZ%2B4u0CgCuvK86xcoNHic8xicHfQGIMcyUtt3t4TJm6HM5RhRcfmefq9EWac4dwp0prJf5OpTmJoofwK0zxbk3p7OZ&scope=name+email&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Fapple%2Fredirect%2Fsignup'">
+                <img style="filter: invert(1);width: 20px; height: 20px;"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1200px-Apple_logo_black.svg.png"
+                    alt="Apple" width="20">
+                Sign up with Apple
+            </button>
+        </div>
+        <hr id="h1">
+        <div class="login">
+            <p>Already have an account?</p>
+            <a href="login.html" class="login-link"> Log in here.</a>
+        </div>
+    </div>
+    <div class="footer">
+        This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+    </div>
+
+
+    <script>
+        // Add event listeners for the buttons
+        const nextButton = document.getElementById('next');
+        const googleButton = document.getElementById('google');
+        const facebookButton = document.getElementById('facebook');
+        const appleButton = document.getElementById('apple');
+
+        nextButton.addEventListener('click', () => {
+            // Handle the 'Next' button click here
+            console.log('Next button clicked');
+        });
+
+        googleButton.addEventListener('click', () => {
+            // Handle the Google button click here
+            console.log('Google button clicked');
+        });
+
+        facebookButton.addEventListener('click', () => {
+            // Handle the Facebook button click here
+            console.log('Facebook button clicked');
+        });
+
+        appleButton.addEventListener('click', () => {
+            // Handle the Apple button click here
+            console.log('Apple button clicked');
+        });
+    </script>
+</body>
+
+</html>

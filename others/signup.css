@@ -1,0 +1,168 @@
+body {
+    background-color: #191414;
+    color: #fff;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #282828;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container a {
+    color: #14c753;
+    font-size: 12px;
+    margin-right: 140px;
+
+
+}
+
+h1 {
+    font-size: 40px;
+    /* margin-bottom: 20px; */
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 60%;
+    padding: 12px;
+    margin: 10px 100px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 60%;
+    background-color: #1ed760;
+    color: black;
+    font-weight: bold;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #14c753;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-button {
+    width: 60%;
+    padding: 12px;
+    border: none;
+    border-radius: 19px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.social-button:hover {
+    background-color: #444;
+    border: 1px solid whitesmoke;
+}
+
+.social-button img {
+    margin-right: 10px;
+}
+
+.login-link {
+    margin-top: 14px;
+    text-decoration: none;
+    color: #1ed760;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+    padding: 30px;
+    text-align: center;
+    font-size: 12px;
+    /* border: 1px solid white; */
+    background-color: #282828;
+}
+
+.span {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#h1 {
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 80px;
+}
+
+#p {
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+hr {
+    width: 130px;
+    border-color: #7c7b7b;
+
+}
+
+.login {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-left: 120px;
+    gap: 5px;
+
+}
+.login p{
+    font-size: small;
+}
+#h1{
+    width: 300px; 
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.hr{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 12px 0;
+    padding: 0 50px;
+    
+
+}
